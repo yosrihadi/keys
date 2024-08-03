@@ -3,7 +3,7 @@
 // @version     1.00
 // @homepageURL https://github.com/yosrihadi/keys/blob/main/README.md
 // @downloadURL https://yosrihadi.github.io/keys/s.js
-// @author      Yosri Hadi
+// @author      YosriHadi
 // @namespace   Violentmonkey Scripts
 // @match       *://yosrihadi.github.io/*
 // @grant       GM_xmlhttpRequest
@@ -14,6 +14,7 @@
 // @resource    BACKGROUND https://yosrihadi.github.io/keys/bg.jpg
 // @noframes
 // ==/UserScript==
+
 
 const APP_TOKEN = 'd28721be-fd2d-4b45-869e-9f253b554e50'
 const PROMO_ID = '43e35910-c168-4634-ad4f-52fd764a843f'
