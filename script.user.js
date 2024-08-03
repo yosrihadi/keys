@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Hamster bike keygen
 // @version     1.00
-// @homepageURL https://github.com/yosrihadi/keys/blob/main/README.md
+// @homepageURL https://github.com/yosrihadi/keys/blob/main/README
 // @downloadURL https://yosrihadi.github.io/keys/s.js
 // @author      YosriHadi
 // @namespace   Violentmonkey Scripts
