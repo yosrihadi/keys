@@ -2,7 +2,7 @@
 // @name        Hamster bike keygen
 // @version     1.00
 // @homepageURL https://github.com/yosrihadi/keys/blob/main/README.md
-// @downloadURL https://yosrihadi.github.io/kes/s.js
+// @downloadURL https://yosrihadi.github.io/keys/s.js
 // @author      Yosri Hadi
 // @namespace   Violentmonkey Scripts
 // @match       *://yosrihadi.github.io/*
@@ -11,7 +11,7 @@
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://yosrihadi.github.io/key/keygen_bg.jpg
+// @resource    BACKGROUND https://yosrihadi.github.io/keys/bg.jpg
 // @noframes
 // ==/UserScript==
 
