@@ -153,7 +153,6 @@ function createLayout() {
   center.style.position = absolute;
   center.style.width = "300px";
   center.style.height = "200px";
-
   center.style.top = "50%";
   center.style.left = "50%";
   center.style.margin = "-100px 0 0 -150px";
