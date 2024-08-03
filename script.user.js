@@ -148,15 +148,8 @@ async function start() {
 
 function createLayout() {
   document.body.innerHTML = "";
-  const center = document.createElement("div");
-  center.style.display = "fles";
-  center.style.position = absolute;
-  center.style.width = "300px";
-  center.style.height = "200px";
-  center.style.top = "50%";
-  center.style.left = "50%";
-  center.style.margin = "-100px 0 0 -150px";
-  center.style.background = "red";
+
+  
   const container = document.createElement("div");
 
   container.style.display = "flex";
