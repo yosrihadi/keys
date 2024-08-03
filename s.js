@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name        Hamster bike keygen
-// @version     1.11
-// @homepageURL https://github.com/georg95/hamster-bike-keygen/blob/main/README.md
-// @downloadURL https://georg95.github.io/hamster-bike-keygen/script.user.js
-// @author      georg95
+// @version     1.00
+// @homepageURL https://github.com/yosrihadi/keys/blob/main/README.md
+// @downloadURL https://yosrihadi.github.io/kes/s.js
+// @author      Yosri Hadi
 // @namespace   Violentmonkey Scripts
-// @match       *://georg95.github.io/*
+// @match       *://yosrihadi.github.io/*
 // @grant       GM_xmlhttpRequest
 // @grant       GM_getResourceURL
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://georg95.github.io/hamster-bike-keygen/keygen_bg.jpg
+// @resource    BACKGROUND https://yosrihadi.github.io/key/keygen_bg.jpg
 // @noframes
 // ==/UserScript==
 
