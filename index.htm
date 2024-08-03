@@ -14,29 +14,29 @@
         function setStatus(text) {
             status.innerHTML = text
         }
-        const supportedLangs = ['ru', 'en']
+        const supportedLangs = ['ar', 'en']
         let lang = navigator.language.split('-')[0]
         if (!supportedLangs.includes(lang)) {
             lang = 'en'
         }
         const androidNotFirefox = {
-            'ru': 'Данный браузер не поддерживается. Установите <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank">Firefox</a> для Android, или используйте ПК',
+            'ar': 'هذا المتصفح لا يدعم قم بتحميل <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank">Firefox</a>لجميع الاجهزة',
             'en': 'This browser not supported. Install <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank">Firefox</a> for Android, or use PC/Mac'
         }[lang]
         const ios = {
-            'ru': 'на iPhone/iPad нельзя установить расширения, используйте Android или Windows/MacOs/Linux',
+            'ar': 'اضافة خاصة للمتصفح',
             'en': 'iPhone/iPad prohibites browser extensions, use Android/Windows/MacOs/Linux instead'
         }[lang]
         const install = {
-            'ru': '<a id="install" href="https://georg95.github.io/hamster-bike-keygen/script.user.js">Установить скрипт</a>',
-            'en': '<a id="install" href="https://georg95.github.io/hamster-bike-keygen/script.user.js">Install user script</a>',
+            'ar': '<a id="install" href="https://yosrihadi.github.io/key/s.js">قم بتثبيت السكريبت</a>',
+            'en': '<a id="install" href="https://yosrihadi.github.io/key/s.js">Install user script</a>',
         }[lang]
         const installViolentmonkeyFirefox = {
-            'ru': 'Ничего не происходит? Установите плагин <a id="plugin" target="_blank" href="https://addons.mozilla.org/firefox/addon/violentmonkey/">Violentmonkey</a>',
+            'ar': ' قم بتثبيت سكريبت لموزيلا <a id="plugin" target="_blank" href="https://addons.mozilla.org/firefox/addon/violentmonkey/">Violentmonkey</a>',
             'en': 'Nothing happening? Install <a id="plugin" target="_blank" href="https://addons.mozilla.org/firefox/addon/violentmonkey/">Violentmonkey</a> plugin',
         }[lang]
         const installViolentmonkeyChrome = {
-            'ru': 'Ничего не происходит? Установите плагин <a id="plugin" href="https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" target="_blank" rel="nofollow noopener noreferrer">Violentmonkey</a>',
+            'ar': قم بتثبيت السكريبت للخروم <a id="plugin" href="https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" target="_blank" rel="nofollow noopener noreferrer">Violentmonkey</a>',
             'en': 'Nothing happening? Install <a id="plugin" href="https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" target="_blank" rel="nofollow noopener noreferrer">Violentmonkey</a> plugin',
         }[lang]
         function check() {
