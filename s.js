@@ -1,4 +1,19 @@
-
+// ==UserScript==
+// @name        Hamster bike keygen
+// @version     1.11
+// @homepageURL https://github.com/georg95/hamster-bike-keygen/blob/main/README.md
+// @downloadURL https://georg95.github.io/hamster-bike-keygen/script.user.js
+// @author      georg95
+// @namespace   Violentmonkey Scripts
+// @match       *://georg95.github.io/*
+// @grant       GM_xmlhttpRequest
+// @grant       GM_getResourceURL
+// @grant       GM_getValue
+// @grant       GM_setValue
+// @run-at      document-end
+// @resource    BACKGROUND https://georg95.github.io/hamster-bike-keygen/keygen_bg.jpg
+// @noframes
+// ==/UserScript==
 
 const APP_TOKEN = 'd28721be-fd2d-4b45-869e-9f253b554e50'
 const PROMO_ID = '43e35910-c168-4634-ad4f-52fd764a843f'
